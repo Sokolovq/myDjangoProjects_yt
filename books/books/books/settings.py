@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'books_db',
         'USER': 'books_user',
-        'PASSWORD': 'Sokol2011',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -143,5 +143,5 @@ REST_FRAMEWORK = {
 
 SOCIAL_AUTH_JSONFIELD_ENABLED = True
 
-SOCIAL_AUTH_GITHUB_KEY = '1c5851317fe9bae0ce44'
-SOCIAL_AUTH_GITHUB_SECRET = '2bfe4e45700180daf33cd7b66d1794e57d85c535'
+SOCIAL_AUTH_GITHUB_KEY = ''
+SOCIAL_AUTH_GITHUB_SECRET = ''
