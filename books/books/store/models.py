@@ -12,6 +12,4 @@ class Book(models.Model):
         return f' id: {self.id} - {self.name}'
 
 
-class UserBookRelation(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    book =
+
